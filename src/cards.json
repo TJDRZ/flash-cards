@@ -1,0 +1,10 @@
+{
+    "FTP: File Transfer Protocol": {
+        "1": "tcp/20 (active mode data), tcp/21 (control)",
+        "2": "Transfers files between systems",
+        "3": "Authenticates with a username and password",
+        "4": "Some systems use a generic/anonymous login",
+        "5": "Full-featured functionality",
+        "6": "List, add, delete, etc."
+    }
+}
