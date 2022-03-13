@@ -25,9 +25,8 @@
     },
     "DNS - Domain Name System": {
         "1": "Converts names to IP addresses - udp/53",
-        "2": "www.professormesser.com = 162.159.246.164",
-        "3": "These are very critical resources",
-        "4": "Usually multiple DNS servers are in production"
+        "2": "These are very critical resources",
+        "3": "Usually multiple DNS servers are in production"
     },
     "HTTP and HTTPS": {
         "1": "Hypertext Transfer Protocol - tcp/80",
