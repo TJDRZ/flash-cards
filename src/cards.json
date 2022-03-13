@@ -1,5 +1,5 @@
 {
-    "FTP: File Transfer Protocol": {
+    "FTP - File Transfer Protocol": {
         "1": "tcp/20 (active mode data), tcp/21 (control)",
         "2": "Transfers files between systems",
         "3": "Authenticates with a username and password",
@@ -10,5 +10,18 @@
     "SSH - Secure Shell": {
         "1": "Encrypted communication link - tcp/22",
         "2": "Looks and acts the same as Telnet"
+    },
+    "Telnet": {
+        "1": "Telnet – Telecommunication Network - tcp/23",
+        "2": "Login to devices remotely",
+        "3": "Console access",
+        "4": "In-the-clear communication",
+        "5": "Not the best choice for production systems"
+    },
+    "SMTP - Simple Mail Transfer Protocol": {
+        "1": "Server to server email transfer - tcp/25",
+        "2": "Also used to send mail from a device to a mail server",
+        "3": "Commonly configured on mobile devices and email clients",
+        "4": "Other protocols are used for clients to receive email (IMAP, POP3)"
     }
 }
