@@ -6,5 +6,9 @@
         "4": "Some systems use a generic/anonymous login",
         "5": "Full-featured functionality",
         "6": "List, add, delete, etc."
+    },
+    "SSH - Secure Shell": {
+        "1": "Encrypted communication link - tcp/22",
+        "2": "Looks and acts the same as Telnet"
     }
 }
