@@ -35,5 +35,24 @@ p:nth-child(odd) {
 .next {
   width: 8rem;
   height: 4rem;
+  font-size: inherit;
   cursor: pointer;
+}
+
+@media screen and (max-width: 900px) {
+  :root {
+    font-size: 12px;
+  }
+}
+
+@media screen and (max-width: 650px) {
+  :root {
+    font-size: 8px;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  :root {
+    font-size: 6px;
+  }
 }
