@@ -1,6 +1,6 @@
-import jsonPorts from "./ports.json";
-import "./reset.css";
-import "./style.css";
+import jsonPorts from "./json/ports.json";
+import "./styles/reset.css";
+import "./styles/style.css";
 
 // Make buttons on home screen that will dictate which area to study
 // Rename cards.json to ports.json, then have cables.json, etc
