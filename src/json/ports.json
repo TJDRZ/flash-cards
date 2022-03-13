@@ -7,12 +7,13 @@
     },
     "SSH - Secure Shell": {
         "1": "Encrypted communication link - tcp/22",
-        "2": "Looks and acts the same as Telnet"
+        "2": "Encrypted console access",
+        "3": "Looks and acts the same as Telnet"
     },
     "Telnet": {
         "1": "Telnet – Telecommunication Network - tcp/23",
-        "2": "Login to devices remotely",
-        "3": "Console access",
+        "2": "Insecure console access",
+        "3": "Login to devices remotely",
         "4": "In-the-clear communication",
         "5": "Not the best choice for production systems"
     },
@@ -43,22 +44,23 @@
     },
     "RDP - Remote Desktop Protocol": {
         "1": "Share a desktop from a remote location over tcp/3389",
-        "2": "Remote Desktop Services on many Windows versions",
-        "3": "Can connect to an entire desktop or just an application",
-        "4": "Clients for Windows, macOS, Linux, Unix, iPhone, Android, and others"
+        "2": "Graphical display of remote devices",
+        "3": "Remote Desktop Services on many Windows versions",
+        "4": "Can connect to an entire desktop or just an application",
+        "5": "Clients for Windows, macOS, Linux, Unix, iPhone, Android, and others"
     },
     "SMB - Server Message Block": {
         "1": "Protocol used by Microsoft Windows for file sharing, printer sharing; Also called CIFS (Common Internet File System)",
-        "2": "Using NetBIOS over TCP/IP:",
-        "3": "• udp/137 - NetBIOS name services (nbname)",
-        "4": "• udp/138 - NetBIOS datagram service (nbdatagram)",
-        "5": "• tcp/139 - NetBIOS session service (nbsession)",
-        "6": "Direct over tcp/445 (NetBIOS-less); Direct SMB communication over TCP without the NetBIOS transport"
+        "2": "Direct over tcp/445 (NetBIOS-less); Direct SMB communication over TCP without the NetBIOS transport",
+        "3": "Using NetBIOS over TCP/IP with the following:",
+        "4": "• udp/137 - NetBIOS name services (nbname); Register, remove, and find Windows services by name",
+        "5": "• udp/138 - NetBIOS datagram service (nbdatagram); Windows connecConless data transfer",
+        "6": "• tcp/139 - NetBIOS session service (nbsession); Windows connecCon-oriented data transfer"
     },
     "AFP (Apple Filing Protocol)": {
-        "1": "File services in macOS - tcp/548",
+        "1": "File transfer services in macOS - tcp/548",
         "2": "File management - Copy, move, delete files",
-        "3": "Works with SLP (Service Location Protocol) - tcp/427 and udp/427 (Populates the list of available devices)"
+        "3": "Works with SLP (Service Location Protocol) - tcp/427 and udp/427 (Populates the list of available devices); Find Mac OS services by name"
     },
     "DHCP - Dynamic Host Configuration Protocol": {
         "1": "Automated configuration of IP address, subnet mask and other options",
