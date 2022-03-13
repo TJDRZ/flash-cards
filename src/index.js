@@ -1,21 +1,31 @@
 import jsonPorts from "./json/ports.json";
+import jsonWirelessStandards from "./json/wireless-standards.json";
 import "./styles/reset.css";
 import "./styles/style.css";
 
-// Make buttons on home screen that will dictate which area to study
-// Rename cards.json to ports.json, then have cables.json, etc
-// Button will make sure it uses the correct json for the study
+// Set-up
 
 const cardElement = document.querySelector(".card");
-const buttonElement = document.querySelector(".next");
+const nextButton = document.querySelector(".next");
 
-// on button click const cards = Object.entries(jsonPorts); ,jsonCables, etc etc
-const cards = Object.entries(jsonPorts);
+let cards = "Welcome to TJDRZ's Comptia A+ Flash Cards!";
+cardElement.textContent = cards;
+
+// Nav Study Area Buttons
+
+document.querySelector(".ports").addEventListener("click", () => {
+  cards = Object.entries(jsonPorts);
+  drawCard();
+});
+
+document.querySelector(".wireless-standards").addEventListener("click", () => {
+  cards = Object.entries(jsonWirelessStandards);
+  drawCard();
+});
+
+// Draws and Flips
+
 let currentCardIndex = 0;
-
-function randomNumber(min, max) {
-  return Math.round(Math.random() * (max - min));
-}
 
 cardElement.addEventListener("click", () => {
   cardElement.innerText = "";
@@ -26,13 +36,15 @@ cardElement.addEventListener("click", () => {
   }
 });
 
+nextButton.addEventListener("click", () => {
+  drawCard();
+});
+
 function drawCard() {
   currentCardIndex = randomNumber(1, cards.length);
   cardElement.innerText = cards[currentCardIndex][0];
 }
 
-buttonElement.addEventListener("click", () => {
-  drawCard();
-});
-
-drawCard();
+function randomNumber(min, max) {
+  return Math.round(Math.random() * (max - min));
+}

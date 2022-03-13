@@ -1,0 +1,40 @@
+{
+    "Wireless Standards": {
+        "1": "Wireless networking (802.11)",
+        "2": "Managed by the IEEE LAN/MAN Standards Committee (IEEE 802)",
+        "3": "Many updates over time; Check with IEEE for the latest",
+        "4": "The Wi-Fi trademark; Wi-Fi Alliance handles interoperability testing"
+    },
+    "802.11a": {
+        "1": "One of the original 802.11 wireless standards; October 1999",
+        "2": "Operates in the 5 GHz range",
+        "3": "54 megabits per second (Mbit/s)",
+        "4": "Smaller range than 802.11b - Higher frequency is absorbed by objects in the way; Many rules-of-thumb calculate 1/3rd the range of 802.11b or 802.11g"
+    },
+    "802.11b": {
+        "1": "Also an original 802.11 standard - October 1999",
+        "2": "Operates in the 2.4 GHz range",
+        "3": "11 megabits per second (Mbit/s)",
+        "4": "Better range than 802.11a (Less absorption problems); More frequency conflict (Baby monitors, cordless phones, microwave ovens, Bluetooth"
+    },
+    "802.11g": {
+        "1": "An “upgrade” to 802.11b - June 2003",
+        "2": "Operates in the 2.4 GHz range",
+        "3": "54 megabits per second (Mbit/s) (Same as 802.11a (but a little bit less throughput))",
+        "4": "Backwards-compatible with 802.11b",
+        "5": "Same frequency conflict problems as 802.11b"
+    },
+    "802.11n": {
+        "1": "The update to 802.11g, 802.11b, and 802.11a - October 2009",
+        "2": "Operates at 5 GHz and/or 2.4 GHz; 40 MHz channel widths",
+        "3": "600 megabits per second (Mbit/s); 40 MHz mode and 4 antennas",
+        "4": "802.11n uses MIMO - Multiple-input multiple-output; Multiple transmit and receive antennas"
+    },
+    "802.11ac": {
+        "1": "Approved in January 2014; Significant improvements over 802.11n",
+        "2": "Operates in the 5 GHz band; Less crowded, more frequencies (up to 160 MHz channel bandwidth)",
+        "3": "Increased channel bonding - Larger bandwidth usage",
+        "4": "Denser signaling modulation - Faster data transfers",
+        "5": "Eight MU-MIMO streams - Twice as many streams as 802.11n; Nearly 7 gigabits per second"
+    }
+}
