@@ -1,4 +1,4 @@
-import jsonCards from "./cards.json";
+import jsonPorts from "./ports.json";
 import "./reset.css";
 import "./style.css";
 
@@ -9,7 +9,8 @@ import "./style.css";
 const cardElement = document.querySelector(".card");
 const buttonElement = document.querySelector(".next");
 
-const cards = Object.entries(jsonCards);
+// on button click const cards = Object.entries(jsonPorts); ,jsonCables, etc etc
+const cards = Object.entries(jsonPorts);
 let currentCardIndex = 0;
 
 function randomNumber(min, max) {
