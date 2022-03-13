@@ -54,8 +54,8 @@
         "2": "Direct over tcp/445 (NetBIOS-less); Direct SMB communication over TCP without the NetBIOS transport",
         "3": "Using NetBIOS over TCP/IP with the following:",
         "4": "• udp/137 - NetBIOS name services (nbname); Register, remove, and find Windows services by name",
-        "5": "• udp/138 - NetBIOS datagram service (nbdatagram); Windows connecConless data transfer",
-        "6": "• tcp/139 - NetBIOS session service (nbsession); Windows connecCon-oriented data transfer"
+        "5": "• udp/138 - NetBIOS datagram service (nbdatagram); Windows connectionless data transfer",
+        "6": "• tcp/139 - NetBIOS session service (nbsession); Windows connection-oriented data transfer"
     },
     "AFP (Apple Filing Protocol)": {
         "1": "File transfer services in macOS - tcp/548",
