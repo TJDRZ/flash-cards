@@ -26,6 +26,7 @@ document.querySelector(".wireless-standards").addEventListener("click", () => {
 // Draws and Flips
 
 let currentCardIndex = 0;
+let drawnCards = [];
 
 cardElement.addEventListener("click", () => {
   cardElement.innerText = "";
@@ -41,8 +42,16 @@ nextButton.addEventListener("click", () => {
 });
 
 function drawCard() {
-  currentCardIndex = randomNumber(1, cards.length);
-  cardElement.innerText = cards[currentCardIndex][0];
+  if (drawnCards.length === cards.length) {
+    drawnCards = [];
+    drawCard();
+  } else if (drawnCards.includes(currentCardIndex)) {
+    currentCardIndex = randomNumber(1, cards.length);
+    drawCard();
+  } else {
+    cardElement.innerText = cards[currentCardIndex][0];
+    drawnCards.push(currentCardIndex);
+  }
 }
 
 function randomNumber(min, max) {
