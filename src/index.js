@@ -1,5 +1,6 @@
 import jsonPorts from "./json/ports.json";
 import jsonWirelessStandards from "./json/wireless-standards.json";
+import jsonCables from "./json/cables.json";
 import "./styles/reset.css";
 import "./styles/style.css";
 
@@ -20,6 +21,11 @@ document.querySelector(".ports").addEventListener("click", () => {
 
 document.querySelector(".wireless-standards").addEventListener("click", () => {
   cards = Object.entries(jsonWirelessStandards);
+  drawCard();
+});
+
+document.querySelector(".cables").addEventListener("click", () => {
+  cards = Object.entries(jsonCables);
   drawCard();
 });
 

@@ -1,0 +1,52 @@
+{
+    "Category 5e (enhanced)": {
+        "1": "Maximum Supported Ethernet Standard: 100BASE-TX, 1000BASE-T",
+        "2": "Maximum Supported Distance: 100 meters"
+    },
+    "Category 6": {
+        "1": "Maximum Supported Ethernet Standard: 10GBASE-T",
+        "2": "Maximum Supported Distance: 37 to 55 meters"
+    },
+    "Category 6A (augmented)": {
+        "1": "Maximum Supported Ethernet Standard: 10GBASE-T",
+        "2": "Maximum Supported Distance: 100 meters"
+    },
+    "Plenum-rated cable": {
+        "1": "Traditional cable jacket; Polyvinyl chloride (PVC)",
+        "2": "Fire-rated cable jacket; Fluorinated ethylene polymer (FEP) or low-smoke polyvinyl chloride (PVC)",
+        "3": "Plenum-rated cable may not be as flexible; May not have the same bend radius",
+        "4": "Worst-case planning; Important concerns for any structure"
+    },
+    "Abbreviations": {
+        "1": "U = Unshielded",
+        "2": "S = Braided shielding",
+        "3": "F = Foil shielding",
+        "4": "Braided shielding around the entire cable and foil around the pairs is S/FTP",
+        "5": "Foil around the cable and no shielding around the pairs is F/UTP"
+    },
+    "Coaxial cables": {
+        "1": "Two or more forms share a common axis",
+        "2": "RG-6 used in television/digital cable; high-speed Internet over cable",
+        "3": "RG-59 used as patch cables; Not designed for long distances" 
+    },
+    "TIA/EIA 568A": {
+        "1": "White and Green",
+        "2": "Green",
+        "3": "White and Orange",
+        "4": "Blue",
+        "5": "White and Blue",
+        "6": "Orange",
+        "7": "White and Brown",
+        "8": "Brown"
+    },
+    "TIA/EIA 568B": {
+        "1": "White and Orange",
+        "2": "Orange",
+        "3": "White and Green",
+        "4": "Blue",
+        "5": "White and Blue",
+        "6": "Green",
+        "7": "White and Brown",
+        "8": "Brown"
+    }
+}
