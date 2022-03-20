@@ -17,7 +17,7 @@
         "3": "Plenum-rated cable may not be as flexible; May not have the same bend radius",
         "4": "Worst-case planning; Important concerns for any structure"
     },
-    "Abbreviations": {
+    "Copper Shielding Abbreviations": {
         "1": "U = Unshielded",
         "2": "S = Braided shielding",
         "3": "F = Foil shielding",
@@ -48,5 +48,19 @@
         "6": "Green",
         "7": "White and Brown",
         "8": "Brown"
+    },
+    "Fiber cables": {
+        "1": "Transmission by light; The visible spectrum",
+        "2": "No RF signal; Very difficult to monitor or tap",
+        "3": "Signal slow to degrade; Transmission over long distances",
+        "4": "Immune to radio interference - There’s no RF",
+        "5": "Multi-mode Fiber; Short-range communication, up to 2 km",
+        "6": "Single-mode Fiber; Long-range communication, up to 100 km"
+    },
+    "Video cables": {
+        "1": "VGA (Video Graphics Array); AKA DB-15 or DE-15; Analog / Not digital; Image degrades after 5-10 meters",
+        "2": "HDMI (High-Definition Multimedia Interface; All digital / Not analog; ~20 meters before losing signal",
+        "3": "DisplayPort; Royalty-free; Data sent in packets; Compatible with HDMI and DVI",
+        "4": "DVI (Digital Visual Interface); Single-link: 3.7Gbps (HDTV at 60fps); Dual-link: 7.4Gbps (HDTV at 85fps); DVI-A (Analog); DVI-D (Digital); DVI-I (Integrated; Digital and Analog in same connector)"
     }
 }
