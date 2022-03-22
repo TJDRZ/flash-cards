@@ -71,5 +71,12 @@
         "1": "USB (Universal Serial Bus); • USB 1.1-Low speed: 1.5 megabits per second, 3 meters, Full speed: 12 megabits per second, 5 meters; • USB 2.0-480 megabits per second, 5 meters; • USB 3.0-SuperSpeed, 5 gigabits per second, ~3 meters, Standard does not specify a cable length",
         "2": "USB 3.1 and USB 3.2: USB 3.1-Released July 2013, SuperSpeed+, 10 Gbit/sec; USB 3.2-Released September 2017, SuperSpeed+ over a USB-C connector, 10 Gbit/sec and 20 Gbit/sec",
         "3": "USB-C: replaces all USB"
+    },
+    "SATA drive cables": {
+        "1": "SATA (Serial AT Attachment)",
+        "2": "SATA Revision 1.0: SATA 1.5 Gbit/s, 1 meter",
+        "3": "SATA Revision 2.0: SATA 3.0 Gbit/s, 1 meter",
+        "4": "SATA Revision 3.0: SATA 6.0 Gbit/s, 1 meter",
+        "5": "SATA Revision 3.2: SATA 16 Gbit/s, 1 meter"
     }
 }
